@@ -14,3 +14,50 @@
   justify-content: center;
   height: 90vh;
 }
+
+/* transection page*/
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+
+}
+
+/* about page */
+/* src/App.css */
+.about-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.creators-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.creator-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.creator-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.creator-card h2 {
+  margin-bottom: 10px;
+}
+
+.creator-card p {
+  margin: 0;
+}
